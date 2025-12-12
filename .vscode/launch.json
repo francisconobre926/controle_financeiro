@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "type": "java",
+      "name": "ControleFinanceiroApplication",
+      "request": "launch",
+      "mainClass": "com.nobre.demo.ControleFinanceiroApplication",
+      "projectName": "demo"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "g:/Software/projecto/controle_financeiro/back/demo/src/main/java/com/nobre/demo/controller",
+      "program": "g:/Software/projecto/controle_financeiro/back/demo/src/main/java/com/nobre/demo/controller/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
